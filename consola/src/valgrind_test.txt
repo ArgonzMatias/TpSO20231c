@@ -1,0 +1,21 @@
+==17717== Memcheck, a memory error detector
+==17717== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17717== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==17717== Command: ./console.c
+==17717== Parent PID: 8228
+==17717== 
+==17717== 
+==17717== HEAP SUMMARY:
+==17717==     in use at exit: 1,672 bytes in 51 blocks
+==17717==   total heap usage: 66 allocs, 15 frees, 79,650 bytes allocated
+==17717== 
+==17717== LEAK SUMMARY:
+==17717==    definitely lost: 0 bytes in 0 blocks
+==17717==    indirectly lost: 0 bytes in 0 blocks
+==17717==      possibly lost: 0 bytes in 0 blocks
+==17717==    still reachable: 1,672 bytes in 51 blocks
+==17717==         suppressed: 0 bytes in 0 blocks
+==17717== Rerun with --leak-check=full to see details of leaked memory
+==17717== 
+==17717== For lists of detected and suppressed errors, rerun with: -s
+==17717== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
